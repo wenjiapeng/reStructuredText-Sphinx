@@ -66,6 +66,7 @@ sphinx-rtd-theme
 
 这是Sphinx支持的一种网页主题之一，仅仅对生成HTML时有效。个人对这种主题比较喜爱，其它的不甚满意。安装方法和Sphinx的安装类似，故不再赘述。
 
+
 安装LaTeX
 ---------
 
@@ -73,11 +74,13 @@ LaTeX是一个高质量的排版系统，利用TeX格式，即使使用者没有
 
 Windows中常用的TeX编译引擎是 `MikTex <https://miktex.org/download>`_ ，如下所示：
 
-.. figure:: ./image/MiKTeX_Download.png
+.. figure:: ./images/MiKTeX_Download.png
 
    下载MiKTeX
 
 如果需要在移动设备中安装，请参考 `Portable Edition <https://miktex.org/howto/portable-edition>`_ 的操作。
+
+安装完成后，将安装路径 ``{PARENT_DIR}/MiKTeX 2.9/miktex/bin/x64`` 添加到环境变量中。
 
 
 安装sublime编辑器
