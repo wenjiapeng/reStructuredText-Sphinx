@@ -1,2 +1,2 @@
-# reStructuredText-Sphinx
+# reStructuredText_Sphinx
 notebook
