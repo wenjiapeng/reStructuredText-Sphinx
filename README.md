@@ -1,4 +1,4 @@
 # reStructuredText_Sphinx
 
-本文描述在Windows系统中如何搭建reStructuredText+Sphinx文档编辑编译环境。
+本文描述在Windows系统中如何搭建reStructuredText+Sphinx文档编辑编译环境，通过配置可以输出HTML和PDF等多种格式。
 
