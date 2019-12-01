@@ -1,2 +1,4 @@
 # reStructuredText_Sphinx
-notebook
+
+本文描述在Windows系统中如何搭建reStructuredText+Sphinx文档编辑编译环境。
+
