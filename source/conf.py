@@ -80,6 +80,17 @@ pygments_style = 'sphinx'
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
 
+# If true, figures, tables and code-blocks are automatically numbered if they have a caption. At same
+# time, the numref role is enabled. For now, it works only with the HTML builder and LaTeX builder.
+# Default is False.
+numfig = True
+
+numfig_format = {
+  'figure' : u'图 %s',
+  'table' : u'表 %s',
+  'code-block' : u'程序清单 %s',
+  'section' : u'Section'
+}
 
 # -- Options for HTML output ----------------------------------------------
 
