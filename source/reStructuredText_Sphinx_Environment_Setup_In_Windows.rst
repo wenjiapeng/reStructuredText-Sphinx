@@ -68,6 +68,26 @@ sphinx-rtd-theme
 这是Sphinx支持的一种网页主题之一，仅仅对生成HTML时有效。个人对这种主题比较喜爱，其它的不甚满意。安装方法和Sphinx的安装类似，故不再赘述。
 
 
+安装jieba插件
+-------------
+
+sphinx默认生成的HTML是不支持中文搜索的，为了加入对中文搜索的支持，需要另外安装 **jieba** 插件。
+
+安装命令::
+
+  >> pip install jieba
+
+.. note:: 
+   
+   如果上述命令在线安装失败，请前往 `jieba <https://github.com/fxsjy/jieba>`_ 下载release包离线安装。
+
+安装完毕 **jieba** 插件包后，需要再安装 `sphinx.search.zh_CN <https://github.com/bosbyj/sphinx.search.zh_CN>`_ 插件，插件安装方法参考 `sphinx.search.zh_CN <https://github.com/bosbyj/sphinx.search.zh_CN>`_ 的安装说明即可，如下图所示：
+
+.. figure:: ./images/sphinx.search.zh_CN.png
+
+   sphinx.search.zh_CN安装方法
+
+
 安装LaTeX
 ---------
 
