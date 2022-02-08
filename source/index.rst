@@ -8,6 +8,7 @@ reStructuredText_Sphinx_Environment_Setup_In_Windows
 
 .. toctree::
    :maxdepth: 3
+   :numbered:
    :caption: 目录
 
    reStructuredText_Sphinx_Environment_Setup_In_Windows
